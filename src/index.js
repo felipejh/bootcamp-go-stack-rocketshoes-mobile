@@ -12,12 +12,12 @@ import Routes from './routes';
 
 export default function App() {
   return (
-    <NavigationContainer>
+    <NavigationContainer
+      ref={navigatorRef => NavigationService.setNavigator(navigatorRef)}
+    >
       <Provider store={store}>
         <StatusBar barStyle="light-content" />
-        <Routes
-          ref={navigatorRef => NavigationService.setNavigator(navigatorRef)}
-        />
+        <Routes />
       </Provider>
     </NavigationContainer>
   );

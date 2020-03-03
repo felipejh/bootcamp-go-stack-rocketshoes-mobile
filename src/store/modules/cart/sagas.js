@@ -43,7 +43,7 @@ function* addToCart({ id }) {
     yield put(addToCartSuccess(data));
 
     // Navega para o carrinho após adicionar um produto
-    // NavigationService.navigate('Cart');
+    NavigationService.navigate('Cart');
   }
 }
 
