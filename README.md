@@ -4,5 +4,6 @@
 
 O objetivo deste desafio foi desenvolver o app *Rocketshoes* em React Native utilizando os conceitos de Redux, Saga, React Hooks e a nova API de navegação do React Navigation.
 
-#####Resultado:
+##### Resultado:
+
 <img src=".github/rocketshoes_demo.gif" height="400">
